@@ -1,0 +1,155 @@
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+ menu {
+    height: 600px;
+ }
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+color: mediumslateblue;
+}
+
+header {
+    box-shadow: 0 3px 5px rgb(88, 76, 76);
+    padding: 10px 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+    
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+    gap:30px;
+    position: relative;
+}
+
+#logo {
+    height: 40px;
+}
+
+nav img {
+    height: 25px;
+    border-radius: 100%;
+    position: relative;
+}
+
+
+#carrito {
+    background-color:firebrick;
+    color:black;
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    aspect-ratio: 1;
+    position: absolute;
+}
+
+footer {
+    margin-top: auto;
+    box-shadow: 0 -3px 5px rgb(82, 76, 76);
+    text-align: center;
+}
+
+.modal-conteiner{
+    width: 80%;
+    height: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color:aquamarine;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.modal-carro{
+    display: flex;
+    justify-content: space-around;
+    background-color: dimgrey;
+    color: darksalmon;
+    width: 100%;
+}
+
+.delete-prod {
+    cursor: pointer;
+}
+
+.modal-header-button {
+    cursor: pointer;
+    color: rgb(94, 3, 3);
+    
+}
+
+.carritoCant { 
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top:37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+
+}
+
+
+.modal-conteiner > .modal-content {
+     display: flex; 
+    flex-direction: row;
+}
+
+.modal-conteiner > div > img {
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+}
+
+.total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+h3 {
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    padding-top: 30px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+#ContenedorProductos {
+    display: flex;
+} 
+.Tarjeta-producto {
+    width: 50%;
+}
+
+.Tarjeta-producto img {
+    width: 50%;
+}

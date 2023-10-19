@@ -1,0 +1,39 @@
+ [
+    {
+      "id": 1,
+      "nombre": "Taza",
+      "precio": 200,
+      "img": "https://pintureriasagitario.com.ar/wp-content/uploads/2021/10/Tazas.jpg",
+      "cantidad": 1
+     },
+    {
+      "id": 2,
+      "nombre": "Plato",
+      "precio": 250,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGq8ZiSQma6YICPCciNNXJF4JiUtfsLO4rjw&usqp=CAU",
+      "cantidad": 1
+     },
+    {
+      "id": 3,
+      "nombre": "Chopera",
+      "precio": 400,
+      "img": "https://sistemacontinuo.com.ar/1841-thickbox_default/chop-polimero-para-sublimar.jpg",
+      "cantidad": 1
+     },
+    {
+      "id":4,
+      "nombre": "Mate",
+      "precio": 280,
+      "img": "https://bunny-cdn.ventasxmayor.com/public/44468648276458339/1602613547559-7e4919ea-6209-4253-b401-49364be7254b.jpeg",
+      "cantidad": 1
+     },
+    {
+      "id": 5,
+      "nombre": "Tetera",
+      "precio": 370,
+      "img": "https://acdn.mitiendanube.com/stores/001/110/143/products/whatsapp-image-2020-07-23-at-17-12-541-11de48b689f076f45f15955370719078-640-0.jpeg",
+      "cantidad": 1
+     }
+]
+
+
